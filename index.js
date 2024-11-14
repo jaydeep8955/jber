@@ -10,5 +10,5 @@ const server = createServer((req, res) => {
 });
 
 server.listen(port, () => {
-    console.log(`Server running at http://localhost:${potrt}/`);
+    console.log(`Server running at http://localhost:${port}/`);
 });
